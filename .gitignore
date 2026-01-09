@@ -1,22 +1,22 @@
 # Android / Gradle
 *.iml
-.gradle
 .gradle/
 build/
-/build
 
 # Kotlin
 .kotlin/
 
 # IDE
 .idea/
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .vscode/
+
+# Android Studio specific
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
 
 # OS
 .DS_Store
@@ -27,8 +27,10 @@ Thumbs.db
 
 # Local config
 local.properties
-/local.properties
 
-/captures
-.externalNativeBuild
-.cxx
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Screenshots
+/captures/
