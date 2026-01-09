@@ -5,6 +5,10 @@ El proyecto demuestra cómo construir una UI reactiva y mantenible **sin Jetpack
 
 ---
 
+![CI](https://github.com/vptellez/viewbindingapp/actions/workflows/android-ci.yml/badge.svg)
+
+---
+
 ## Características
 
 - ViewBinding habilitado
